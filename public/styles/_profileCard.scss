@@ -1,0 +1,75 @@
+.profile-card-container {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 250px;
+	border-radius: 15px;
+	background-color: hsl(223, 50%, 87%);
+	text-align: center;
+	line-height: 10px;
+	display: inline-block;
+}
+.profile-card {
+	padding-top: 20px;
+}
+
+.profile-name {
+	font-size: 24px;
+}
+
+.cog-customized {
+	margin-left: 5px;
+}
+
+.profile-pic {
+	width: 100px;
+	border-radius: 100%;
+	margin-bottom: 5px;
+}
+.status {
+	display: inline;
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+	.profile-card-container {
+		width: 200px;
+		height: 200px;
+		line-height: 0px;
+
+		.profile-name {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+		.status,
+		.profession {
+			font-size: 10px;
+		}
+
+		.cog-customized {
+			margin-left: 2px;
+		}
+
+		.profile-pic {
+			width: 100px;
+			border-radius: 100%;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.profile-card-container {
+		position: absolute;
+		top: 55px;
+		left: -150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.profile-card-container {
+		position: absolute;
+		left: -300px;
+	}
+}

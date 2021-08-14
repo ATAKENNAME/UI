@@ -1,0 +1,16 @@
+.app-container {
+	margin-top: 20px;
+	padding: 0;
+}
+
+#left-col-down {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+	// #right-col {
+	// 	position: relative;
+	// }
+}

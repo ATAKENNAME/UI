@@ -1,0 +1,28 @@
+.logo-container {
+	position: relative;
+	margin-left: 20px;
+}
+
+img.logo-img {
+	width: 40px;
+}
+
+.logo-name {
+	position: absolute;
+	margin-left: 5px;
+	bottom: 5px;
+	font-size: 20px;
+	font-weight: 700;
+}
+@media screen and (max-width: 991px) {
+	.logo-container {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.logo-container {
+		position: sticky;
+	}
+}

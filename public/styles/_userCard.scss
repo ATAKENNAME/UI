@@ -1,0 +1,26 @@
+.user-card {
+	display: flex;
+	margin-top: 10px;
+}
+
+.user-pic-holder {
+	display: inline-block;
+}
+
+.user-pic {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+.user-name {
+	text-align: left;
+	line-height: 35px;
+	padding-left: 20px;
+	display: inline;
+}
+
+@media screen and (max-width: 1200px) {
+	.user-name {
+		line-height: 25px;
+	}
+}
